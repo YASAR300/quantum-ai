@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Header } from './components/Header';
-import DiagnosisForm from './components/DiagnosisForm.jsx';
+import { DiagnosisForm } from './components/DiagnosisForm.jsx';
 import { ResultCard } from './components/ResultCard';
 import { useModelStatus, usePrediction } from './hooks/useApi';
 
